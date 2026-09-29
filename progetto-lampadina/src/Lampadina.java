@@ -41,4 +41,33 @@ public class Lampadina {
             this.illuminazione -= 10;
         }
     }
+
+    public String getNome() {
+
+        return nome;
+
+    }
+
+    public void setNome(String nome) {
+
+        this.nome = nome;
+
+    }
+
+    public String getColore() {
+
+        return colore;
+
+    }
+
+    public void setColore(String colore) {
+
+        this.colore = colore;
+
+    }
+
+    public String toString() {
+        return "Nome: " + this.nome + ", Potenza: " + this.potenza + " watt, Stato: "
+                + this.stato + ", Qta: " + this.illuminazione + "%, Colore: " + this.colore;
+    }
 }

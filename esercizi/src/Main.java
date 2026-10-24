@@ -6,7 +6,7 @@ public class Main {
         System.out.print("Gradi: ");
         int g = in.nextInt();
 
-        System.out.print("Minuti: ");
+        System.out.print("Minuti: ");   
         int m = in.nextInt();
 
         System.out.print("Secondi: ");
